@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <link rel="stylesheet" href="styles/mobile.css" />
+    <link rel="stylesheet" media="only screen and (min-width: 768px)" href="styles/desktop.css" />
+    <script src="js/script.js" defer></script>
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/Logo.png" alt="Cantor College logo">
+            </div>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html" aria-label="Home Page">Home</a></li>
+                    <li><a href="about.html" aria-label="About Us Page">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="#" aria-label="Courses Page">Courses</a>
+                        <ul class="submenu">
+                            <li><a href="computing.html" aria-label="Computing Courses">Computing Courses</a></li>
+                            <li><a href="design.html" aria-label="Design Courses">Design Courses</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" aria-label="Facilities & Services">Facilities & Services</a>
+                        <ul class="submenu">
+                            <li><a href="staff.html" aria-label="Staff Information">Staff</a></li>
+                            <li><a href="students.html" aria-label="Student Information">Students</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="resources.html" aria-label="Library and Resource Centre">Resources</a></li>
+                    <li><a href="businesses.html" aria-label="Working with Business">Businesses</a></li>
+                    <li><a href="contact.html" aria-label="Contact Us">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <form class="contact-form">
+            <h2>Contact Us</h2>
+            <div class="input-group">
+                <p>We would love to hear from you! Whether you have a question or just want to say hello, feel free to reach out.</p>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="input-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    
+        <section class="cta">
+            <h3>Ready to Join Cantor College?</h3>
+            <p>Start your journey towards a successful career in Computing or Design. Apply now to get started!</p>
+            <a href="apply.html" class="button">Apply Now</a>
+        </section>
+    
+        <section class="contact-info">
+            <h2>How to Find Us</h2>
+            <p><strong>Address:</strong><br>
+            Cantor College<br>
+            Main Street<br>
+            Sheffield<br>
+            SC4 2BB</p>
+            <p><strong>Phone:</strong> <a href="tel:+4413212340235">(01321) 2340 235</a></p>
+            <p><strong>Fax:</strong> <a href="fax:+4413212340236">(01321) 2340 236</a></p>
+            <p><strong>Email:</strong> <a href="mailto:info@cantorcollege.ac.uk">info@cantorcollege.ac.uk</a></p>
+        </section>
+
+    <footer role="contentinfo">
+        <p>&copy; 2024 Cantor College. All rights reserved.</p>
+    </footer>
+    </main>
+</body>
+</html>
+
